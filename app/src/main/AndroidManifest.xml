@@ -24,5 +24,13 @@
         <activity
             android:name=".TaskWebActivity"
             android:exported="false" />
+
+        <receiver
+            android:name=".DataReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.app.helper.FILE_ACTION" />
+            </intent-filter>
+        </receiver>
     </application>
 </manifest>
