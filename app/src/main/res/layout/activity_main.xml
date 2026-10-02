@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0F1220"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="XP-J"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="任务平台客户端"
+        android:textColor="#8899BB"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/et_dispatch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:background="#101522"
+        android:hint="输入下发id"
+        android:inputType="text"
+        android:padding="16dp"
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#556688"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_open"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#1A2A6B"
+        android:text="打开任务页"
+        android:textColor="#FFFFFF" />
+</LinearLayout>
